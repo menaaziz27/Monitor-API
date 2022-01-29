@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <title>Report Details</title>
+</head>
+<body>
+  <div class="container">
+    <canvas id="myChart">
+      
+    </canvas>
+  </div>
+  
+  <script>
+    const myChart = document.getElementById('myChart').getContext('2d');
+
+    let reportChart = new Chart(myChart, {
+      type: 'bar',
+      data : {
+        labels: [''],
+        datasets: [{
+          label: ['Response Time'],
+          data: [
+          573,
+          386,
+          244,
+          443,
+          488,
+          ]
+        }],
+      },
+      options: {}
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+{
+	"name": "express-mongoose-starter",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "nodemon src/server.js",
+		"test": "jest"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"dotenv": "^14.2.0",
+		"jest": "^27.4.7",
+		"nodemon": "^2.0.15",
+		"supertest": "^6.2.2"
+	},
+	"dependencies": {
+		"axios": "^0.25.0",
+		"bcryptjs": "^2.4.3",
+		"chart.js": "^3.7.0",
+		"compression": "^1.7.4",
+		"cors": "^2.8.5",
+		"cron-job-manager": "^2.2.1",
+		"ejs": "^3.1.6",
+		"express": "^4.17.2",
+		"express-rate-limit": "^6.2.0",
+		"helmet": "^5.0.2",
+		"joi": "^17.5.0",
+		"jsonwebtoken": "^8.5.1",
+		"moment": "^2.29.1",
+		"mongoose": "^6.1.7",
+		"morgan": "^1.10.0",
+		"node-schedule": "^2.1.0",
+		"nodemailer": "^6.7.2",
+		"xss-clean": "^0.1.1"
+	}
+}
